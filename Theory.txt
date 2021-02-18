@@ -1,0 +1,42 @@
+1.
+Manual Rest Event and Auto Rest Event is classes are used in order to allow one thread to wait 
+in a specific location in the code until a different thread completes his work 
+
+The difference is that you don't need a "lock" because there is no critical section
+
+Manual Rest Event and Auto Rest Event inherit from WaitHandle
+
+2.
+Reset() - Close gateway
+
+3.
+Set() - Open gateway
+
+4.
+WaitOne('time') - add parameter 'time'
+
+5.
+Tasks class let you create threads and run them asynchronously
+
+A task is simply a set of instructions loaded into the memory. 
+Threads can themselves split themselves into two or more simultaneously running tasks.
+6.
+Wait()
+
+7.
+to add - type <T>
+to add - 'return'
+
+task.Start()
+task.Result
+
+8.
+the task.WaitAny method to wait for the one of a series of executing tasks to complete, don't care which task it is
+
+the task.WaitAll method to wait for all of a series of tasks complete 
+
+9.
+The Task Parallel Library (TPL) is a set of public types and APIs 
+in the System.Threading and System.Threading.Tasks namespaces.
+
+By using TPL, you can maximize the performance of your code 
